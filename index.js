@@ -1,8 +1,10 @@
-const nombreDelUsuario = prompt ("¡Bienvenido! Por favor ingresá tu nombre...")
-saludarALosUusarios = (nombreDelUsuario)
+//saludo
 
-
-console.log(nombreDelUsuario.length)
+function saludarALosUsuarios (nombre){
+    console.log(`Bienvenido ${nombre}`)
+}
+const nombreDelUsuario = prompt ("Ingrese su nombre")
+saludarALosUsuarios(nombreDelUsuario)
 
 //Validación usuario y password
 
