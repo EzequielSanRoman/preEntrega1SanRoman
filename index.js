@@ -25,7 +25,7 @@ if (usuarioIngresado == usuario && passwordIngresada == password) {
 for (let i = 0; i <= passwordIngresada ; i++){
     console.log("contraseña ok");
     
-    if ([i]<7){
+    if (i<7){
     alert ("La contraseña es demasiado corta, por favor, vuelve a ingresarla...");
     }
 
